@@ -1,0 +1,45 @@
+ /* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .icon-bar{
+        display: block;
+      }
+    li{
+        padding: 17px 0;
+        margin: 7px 0;
+        background: #56f56942;
+      }
+    .nav {
+        flex-direction: column;
+        align-items: unset;
+    }
+    .menu-wraper{
+      height: 0px;
+      overflow: hidden;
+      transition: 0.7s;
+      }
+
+ }
+
+
+
+ @media (min-width: 768px) {
+    .menu-wraper{
+        display: inline-flex;
+        justify-content: space-between;
+        height: 0px;
+        align-items: center;
+      }
+
+      .menu{
+        height: 0px;
+        display: flex;
+        flex-direction: row;
+      }
+      .social-media{
+        display: flex;
+        flex-direction: row;
+      }
+      .menu li{
+        padding: 0px 17px;
+      }
+ }
